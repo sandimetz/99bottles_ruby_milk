@@ -21,4 +21,13 @@ class BottlesTest < Minitest::Test
       "2 bottles of milk on the wall.\n"
     assert_equal expected, Bottles.new.verse(3)
   end
+
+  def test_verse_2
+    expected =
+      "2 bottles of milk on the wall, " +
+      "2 bottles of milk.\n" +
+      "Take one down and pass it around, " +
+      "1 bottle of milk on the wall.\n"
+    assert_equal expected, Bottles.new.verse(2)
+  end
 end
