@@ -11,7 +11,7 @@ class Bottles
     case number
     when 0
       "#{quantity(number).capitalize} #{container(number)} of milk on the wall, " +
-      "no more bottles of milk.\n" +
+      "#{quantity(number)} #{container(number)} of milk.\n" +
       "Go to the store and buy some more, " +
       "99 bottles of milk on the wall.\n"
     else
