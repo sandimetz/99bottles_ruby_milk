@@ -31,12 +31,4 @@ class Bottles
       "#{number-1} bottles of milk on the wall.\n"
     end
   end
-
-  def container(number)
-    if number == 1
-      "bottle"
-    else
-      "bottles"
-    end
-  end
 end
