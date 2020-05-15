@@ -13,7 +13,7 @@ class Bottles
     "#{quantity(number).capitalize} #{container(number)} " +
       "of milk on the wall, " +
     "#{quantity(number)} #{container(number)} of milk.\n" +
-    "#{action(number)}, " +
+    "#{bottle_number.action}, " +
     "#{quantity(successor(number))} #{container(successor(number))} " +
       "of milk on the wall.\n"
   end
